@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ padding: 15px;
+
+}
+
+header {
+    background-color: rgb(65, 65, 65);
+    height: 70px;
+}
+
+header img {
+    height: 40px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+}
+
+#textlogo {
+    color: aliceblue;
+}
+
+#facebook, #twitter {
+    border-radius: 25% ;
+
+}
+
+#linkedin, #instagram {
+    border-radius: 20%;
+}
+
+#socialmedias img {
+    height: 20px;
+    margin: 8px;
+}
+
+#socialmedias {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-right:75px ;
+}
+
+
+/* acima estão o desenvolvimento do header. */
+/* abaixo está o desenvolvimento da section1 */
+
+
+#section1 video {
+    height: 300px;
+    margin: 20px;
+}
+
+#section1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(76, 126, 160) ;
+
+}
+
+#conts2 button {
+    margin-bottom: 40px;
+
+}
+
+#section1 h1 {
+    margin: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#section1 h6 {
+    margin: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+}
+
+#conts2 a {
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* abaixo o desenvolvimento da section2 */
+
+#section2 #title {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+/* abaixo o desenvolvimento da section3 */
+
+#section3 {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+#section3 img {
+    height: 50px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+
+
